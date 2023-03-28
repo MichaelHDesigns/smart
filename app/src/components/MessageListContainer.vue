@@ -10,7 +10,7 @@
 
 <script>
 import { Component } from "react";
-import charity from "./ethereum/factory";
+import charity from "../ethereum/factory";
 import MessageList from "./MessageList";
 
 export default class MessageListContainer extends Component {
