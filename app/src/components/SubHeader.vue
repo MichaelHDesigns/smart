@@ -26,5 +26,5 @@ export default {
 </script>
 
 <style lang="scss">
-  @import "@/css/SubHeader.css";
+  @import "../css/SubHeader.css";
 </style>
