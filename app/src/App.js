@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import NavigationBar from './components/navigation/NavigationBar';
-import Banner from './components/banner/Banner';
-import Layout from './components/layout/Layout';
-import MessageListContainer from './components/messages/MessageListContainer';
-import SubHeader from './components/subHeader/SubHeader';
-import './App.css';
+import NavigationBar from './components/NavigationBar';
+import Banner from './components/Banner';
+import Layout from './components/Layout';
+import MessageListContainer from './components/MessageListContainer';
+import SubHeader from './components/SubHeader';
+import '../css/App.css';
 
 const book = require('./images/book-iso.png');
 const park = require('./images/tree-iso.png');
