@@ -31,6 +31,6 @@ export default {
 
 <style scoped>
 
-@import url('./css/MessageListContainer.css');
+@import url('../css/MessageListContainer.css');
 
 </style>
