@@ -11,6 +11,6 @@ export default {
   name: 'PeriodLoader',
 }
 </script>
-<style scoped>
-@import url('@/css/PeriodLoader.css');
+<style lang="scss">
+  @import "@/css/PeriodLoader.css";
 </style>
