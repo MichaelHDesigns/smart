@@ -58,7 +58,7 @@ module.exports = {
     // Useful for deploying to a public network.
     // NB: It's important to wrap the provider as a function.
       develop: {    
-      provider: () => new HDWalletProvider(mnemonic, `https://206.189.231.104`),
+      provider: () => new HDWalletProvider(mnemonic, `wss://206.189.231.104`),
       network_id: 6105,       // Ropsten's id
       port: 8545,
       gas: 7992182,        // Ropsten has a lower block limit than mainnet
