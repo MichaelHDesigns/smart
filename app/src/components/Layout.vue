@@ -8,6 +8,6 @@
 </template>
 
 <style lang="scss">
-  @import "@/css/Banner.css";
-  @import "@/css/Layout.css"
+  @import "../css/Banner.css";
+  @import "../css/Layout.css"
 </style>
