@@ -4,7 +4,7 @@ import VueTruncate from 'vue-truncate-filter';
 import App from './App.vue';
 import router from './router';
 import store from './store';
-import '../css/main.scss';
+import '@/css/main.scss';
 
 import '@fortawesome/fontawesome-free/css/all.css';
 import '@fortawesome/fontawesome-free/css/fontawesome.css';
