@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import './css/Loader.css';
+import '../css/Loader.css';
 
 export default {
   name: 'Loader',
