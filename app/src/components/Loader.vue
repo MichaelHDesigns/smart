@@ -5,9 +5,13 @@
 </template>
 
 <script>
-import '../css/Loader.css';
 
 export default {
   name: 'Loader',
 }
+
 </script>
+
+<style scoped>
+@import url('../css/Loader.css');
+</style>
