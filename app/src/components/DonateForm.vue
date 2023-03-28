@@ -96,7 +96,7 @@ export default {
     },
     onClose(e) {
       if (this.onClose) { // check if onClose exists
-        this.onClose(e)
+        this.onClose(e);
       }
     }
   }
