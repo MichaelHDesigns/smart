@@ -100,6 +100,6 @@ export default {
   }
 }
 </script>
-<style scoped>
-@import url('@/css/DonateForm.css');
+<style lang="scss">
+  @import "@/css/DonateForm.css";
 </style>
