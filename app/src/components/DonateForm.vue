@@ -94,7 +94,10 @@ export default {
         }
       }
     },
-    onClose(e);
+   onClose(e) {
+    if (this.props.onClose) {
+      this.props.onClose(e)
+    }
   }
 }
 </script>
