@@ -12,6 +12,6 @@ export default {
 
 </script>
 
-<style scoped>
-@import url('@/css/Loader.css');
+<style lang="scss">
+  @import "@/css/Loader.css";
 </style>
