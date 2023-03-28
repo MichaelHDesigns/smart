@@ -2,7 +2,7 @@
   <div v-if="clickOpen" class="modal-background">
     <div class="form-background">
       <div v-if="loading" class="form-header">The nodes are now noding</div>
-      <div v-else class="form-header">Help Our Communities <br/>Grow</div>
+      <div v-else class="form-header">Help Our Communities <br>Grow</div>
       <div @click="onClose" class="modal-close">x</div>
       <div v-if="loading" class="loading-form">
         <PeriodLoader />
@@ -95,7 +95,7 @@ export default {
       }
     },
     onClose(e) {
-      this.onClose && this.onClose(e);
+      this.onClose(e);
     }
   }
 }
