@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import web3 from "@ethereum/web3";
+import web3 from "@/ethereum/web3";
 
 export default {
   props: {
@@ -31,6 +31,6 @@ export default {
 
 <style scoped>
 
-@import url('@css/MessageListContainer.css');
+@import url('@/css/MessageListContainer.css');
 
 </style>
