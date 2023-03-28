@@ -7,9 +7,7 @@
   </div>
 </template>
 
-<style scoped>
-
-@import url('@/css/Banner.css');
-@import url('@/css/Layout.css');
-
+<style lang="scss">
+  @import "@/css/Banner.css";
+  @import "@/css/Layout.css"
 </style>
