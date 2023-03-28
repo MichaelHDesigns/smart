@@ -41,11 +41,11 @@ module.exports = {
     // tab if you use this network and you must also set the `host`, `port` and `network_id`
     // options below to some value.
     //
-     development: {
-     host: "127.0.0.1",     // Localhost (default: none)
-      port: 8545,            // Standard Ethereum port (default: none)
-      network_id: "6105",       // Any network (default: none)
-     },
+   //  development: {
+   //  host: "127.0.0.1",     // Localhost (default: none)
+   //   port: 8545,            // Standard Ethereum port (default: none)
+   //   network_id: "6105",       // Any network (default: none)
+   //  },
     // Another network with more advanced options...
     // advanced: {
     // port: 8777,             // Custom port
@@ -57,15 +57,15 @@ module.exports = {
     // },
     // Useful for deploying to a public network.
     // NB: It's important to wrap the provider as a function.
-   //   develop: {    //
-   //   provider: () => new HDWalletProvider(mnemonic, `https://206.189.231.104`),
-   //   network_id: 6105,       // Ropsten's id
-    //  port: 8545,
-     // gas: 7992182,        // Ropsten has a lower block limit than mainnet
-     // confirmations: 1,    // # of confs to wait between deployments. (default: 0)
-     // timeoutBlocks: 200,  // # of blocks before a deployment times out  (minimum/default: 50)
-     // skipDryRun: true     // Skip dry run before migrations? (default: false for public nets )
-    //},
+      develop: {    //
+      provider: () => new HDWalletProvider(mnemonic, `https://206.189.231.104`),
+      network_id: 6105,       // Ropsten's id
+      port: 8545,
+      gas: 7992182,        // Ropsten has a lower block limit than mainnet
+      confirmations: 1,    // # of confs to wait between deployments. (default: 0)
+      timeoutBlocks: 200,  // # of blocks before a deployment times out  (minimum/default: 50)
+      skipDryRun: true     // Skip dry run before migrations? (default: false for public nets )
+    },
    //  Useful for private networks
    //  private: {
    //  provider: () => new HDWalletProvider(mnemonic, `https://206.189.231.104:8545`),
