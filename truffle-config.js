@@ -21,7 +21,7 @@
 const HDWalletProvider = require('@truffle/hdwallet-provider');
 
 const fs = require('fs');
-//const mnemonic = fs.readFileSync(".secret").toString().trim();
+const mnemonic = fs.readFileSync(".secret").toString().trim();
 
 module.exports = {
   /**
@@ -41,11 +41,11 @@ module.exports = {
     // tab if you use this network and you must also set the `host`, `port` and `network_id`
     // options below to some value.
     //
-     development: {
-      host: "127.0.0.1",     // Localhost (default: none)
-      port: 8545,            // Standard Ethereum port (default: none)
-      network_id: "6105",       // Any network (default: none)
-     },
+    // development: {
+    // host: "127.0.0.1",     // Localhost (default: none)
+    //  port: 8545,            // Standard Ethereum port (default: none)
+    //  network_id: "6105",       // Any network (default: none)
+    // },
     // Another network with more advanced options...
     // advanced: {
     // port: 8777,             // Custom port
@@ -66,11 +66,11 @@ module.exports = {
    //   skipDryRun: true     // Skip dry run before migrations? (default: false for public nets )
    // },
     // Useful for private networks
-    // private: {
-    // provider: () => new HDWalletProvider(mnemonic, `https://network.io`),
-    // network_id: 2111,   // This network is yours, in the cloud.
-    // production: true    // Treats this network as if it was a public net. (default: false)
-    // }
+     private: {
+     provider: () => new HDWalletProvider(mnemonic, `https://206.189.231.104:8545`),
+     network_id: 6105,   // This network is yours, in the cloud.
+     production: true    // Treats this network as if it was a public net. (default: false)
+     }
   },
 
   // Set default mocha options here, use special reporters etc.
