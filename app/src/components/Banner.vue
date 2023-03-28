@@ -60,7 +60,7 @@ export default {
   },
 };
 </script>
-<style scoped>
-@import url('@/css/Banner.css');
-@import url('@/css/App.css');
+<style lang="scss">
+  @import "@/css/Banner.css";
+  @import "@/css/App.css";
 </style>
