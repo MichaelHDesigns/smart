@@ -94,8 +94,8 @@ export default {
         }
       }
     },
-    onClose(e) {
-      if (this.onClose) { // check if onClose exists
+ closeModal(e) { // rename onClose to closeModal
+      if (this.onClose) {
         this.onClose(e);
       }
     }
