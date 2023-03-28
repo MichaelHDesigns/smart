@@ -65,7 +65,7 @@ export default {
         }
         const accounts = await web3.eth.getAccounts();
         this.loading = true;
-        this.errorMessage = '';
+        this.errorMessage = '',
         await charity.methods.contributeMessage(description, name, web3.utils.toWei(value, 'ether'))
         .send({
           from: accounts[0],
