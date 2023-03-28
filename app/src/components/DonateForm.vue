@@ -94,9 +94,7 @@ export default {
         }
       }
     },
-    onClose(e) {
-      this.onClose(e);
-    }
+    onClose(e);
   }
 }
 </script>
