@@ -34,8 +34,8 @@
 </template>
 
 <script>
-import charity from '../ethereum/factory';
-import web3 from '../ethereum/web3';
+import charity from '../../ethereum/factory';
+import web3 from '../../ethereum/web3';
 import PeriodLoader from './PeriodLoader';
 
 export default {
