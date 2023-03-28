@@ -27,9 +27,9 @@
 
 <script>
 import DonateForm from './DonateForm.vue';
-import iphoneX from '@/images/Asset2@2x.png';
-import charity from '@/ethereum/factory';
-import web3 from '@/ethereum/web3';
+import iphoneX from './images/Asset2@2x.png';
+import charity from './ethereum/factory';
+import web3 from './ethereum/web3';
 
 export default {
   name: 'Banner',
@@ -61,6 +61,6 @@ export default {
 };
 </script>
 <style lang="scss">
-  @import "@/css/Banner.css";
-  @import "@/css/App.css";
+  @import "../css/Banner.css";
+  @import "../css/App.css";
 </style>
