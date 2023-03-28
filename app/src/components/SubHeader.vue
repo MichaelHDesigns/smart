@@ -26,5 +26,5 @@ export default {
 </script>
 
 <style scoped>
-@import url('../css/SubHeader.css');
+@import url('@css/SubHeader.css');
 </style>
