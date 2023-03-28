@@ -4,11 +4,11 @@ import Banner from './components/Banner';
 import Layout from './components/Layout';
 import MessageListContainer from './components/MessageListContainer';
 import SubHeader from './components/SubHeader';
-import '../css/App.css';
+import '@/css/App.css';
 
-const book = require('./images/book-iso.png');
-const park = require('./images/tree-iso.png');
-const cannedGood = require('./images/can-iso.png');
+const book = require('@/images/book-iso.png');
+const park = require('@/images/tree-iso.png');
+const cannedGood = require('@/images/can-iso.png');
 
 class App extends Component {
 	render() {
