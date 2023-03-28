@@ -101,5 +101,5 @@ export default {
 }
 </script>
 <style scoped>
-@import url('./css/DonateForm.css');
+@import url('../css/DonateForm.css');
 </style>
