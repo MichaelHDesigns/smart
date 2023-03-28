@@ -61,6 +61,6 @@ export default {
 };
 </script>
 <style scoped>
-@import url('./css/Banner.css');
-@import url('./css/App.css');
+@import url('../css/Banner.css');
+@import url('../css/App.css');
 </style>
