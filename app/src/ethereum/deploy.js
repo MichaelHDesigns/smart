@@ -4,7 +4,7 @@ const compiledFactory = require('./build/CharityFactory.json');
 
 const provider = new HDWalletProvider(
   'carbon walk lucky payment dawn gate random aunt emotion gate void walk',
-  'https://rinkeby.infura.io/XtFWJhkd1dprF7Lwkqau'
+  'http://206.189.231.104:8545'
 )
 
 const web3 = new Web3(provider);
