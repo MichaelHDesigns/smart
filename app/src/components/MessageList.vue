@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import web3 from "./ethereum/web3";
+import web3 from "../ethereum/web3";
 
 export default {
   props: {
