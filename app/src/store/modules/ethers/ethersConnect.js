@@ -52,7 +52,7 @@ function ethereumOk() {
 // get the name of this network
 export async function getNetName() {
   switch (chainId) {
-    case '0x1':
+    case '0x6105':
       return 'Mainnet';
     case '0x2':
       return 'Morden (deprecated)';

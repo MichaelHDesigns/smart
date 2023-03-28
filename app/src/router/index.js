@@ -1,6 +1,7 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Home from '../pages/Home.vue';
+import DonateForm from '../components/DonateForm';
 import Campaign from '../pages/Campaign.vue';
 import Create from '../pages/Create.vue';
 import About from '../pages/About.vue';
@@ -12,6 +13,11 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home,
+  },
+  {
+    path: '/DonateForm',
+    name: 'Donate',
+    component: DonateForm,
   },
   {
     path: '/campaign/new',
