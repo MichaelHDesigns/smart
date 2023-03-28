@@ -13,5 +13,5 @@ export default {
 </script>
 
 <style lang="scss">
-  @import "@/css/Loader.css";
+  @import "../css/Loader.css";
 </style>
