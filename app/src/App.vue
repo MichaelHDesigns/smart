@@ -18,7 +18,7 @@ import Banner from '@/components/Banner';
 import Layout from '@/components/Layout';
 import MessageListContainer from '@/components/MessageListContainer';
 import SubHeader from '@/components/SubHeader';
-import '../css/App.css';
+import '@/css/App.css';
 import AppFooter from '@/components/Footer.vue';
 import WalletConnect from '@/components/WalletConnect.vue';
 
