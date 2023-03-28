@@ -48,6 +48,6 @@ export default class MessageListContainer extends Component {
 
 <style scoped>
 
-@import url('./css/MessageListContainer.css');
+@import url('../css/MessageListContainer.css');
 
 </style>
