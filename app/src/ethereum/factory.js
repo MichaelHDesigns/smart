@@ -1,5 +1,5 @@
 import web3 from './web3';
-import CharityCampaign from './build/Charity.json';
+import CharityCampaign from '../../build/contracts/Charity.json';
 
 //pre-configured instance for our contract
 const instance = new web3.eth.Contract(
