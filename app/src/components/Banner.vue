@@ -26,7 +26,7 @@
 </template>
 
 <script>
-import DonateForm from '@/components/DonateForm.vue';
+import DonateForm from './DonateForm.vue';
 import iphoneX from '../../images/Asset2@2x.png';
 import charity from '../../ethereum/factory';
 import web3 from '../../ethereum/web3';
