@@ -12,5 +12,5 @@ export default {
 }
 </script>
 <style lang="scss">
-  @import "@/css/PeriodLoader.css";
+  @import "../css/PeriodLoader.css";
 </style>
