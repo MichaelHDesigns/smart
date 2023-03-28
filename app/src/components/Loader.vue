@@ -13,5 +13,5 @@ export default {
 </script>
 
 <style scoped>
-@import url('@css/Loader.css');
+@import url('@/css/Loader.css');
 </style>
