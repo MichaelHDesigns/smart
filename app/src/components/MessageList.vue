@@ -29,8 +29,6 @@ export default {
 };
 </script>
 
-<style scoped>
-
-@import url('@/css/MessageListContainer.css');
-
+<style lang="scss">
+  @import "@/css/MessageListContainer.css";
 </style>
