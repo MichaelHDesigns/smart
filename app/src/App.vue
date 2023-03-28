@@ -14,17 +14,13 @@
 <script>
 import { mapState } from 'vuex';
 import AppHeader from '@/components/Header.vue';
-import Banner from '@/components/Banner';
-import Layout from '@/components/Layout';
-import MessageListContainer from '@/components/MessageListContainer';
-import SubHeader from '@/components/SubHeader';
 import '@/css/App.css';
 import AppFooter from '@/components/Footer.vue';
 import WalletConnect from '@/components/WalletConnect.vue';
 
 export default {
   name: 'App',
-  components: { AppHeader, Banner, Layout, MessageListContainer, SubHeader,  AppFooter, WalletConnect },
+  components: { AppHeader, AppFooter, WalletConnect },
   created() {
     this.$store.dispatch('ethers/init');
     this.$store.watch(
