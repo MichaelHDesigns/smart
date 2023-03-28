@@ -3,7 +3,7 @@ const Web3 = require('web3');
 const compiledFactory = require('./build/CharityFactory.json');
 
 const provider = new HDWalletProvider(
-  'carbon walk lucky payment dawn gate random aunt emotion gate void walk',
+  'later axis panel hockey age snap yellow space chimney obscure slender source',
   'http://206.189.231.104:8545'
 )
 
