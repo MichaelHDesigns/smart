@@ -14,11 +14,11 @@
 <script>
 import { mapState } from 'vuex';
 import AppHeader from '@/components/Header.vue';
-import Banner from '@/components/banner/Banner';
-import Layout from '@/components/layout/Layout';
-import MessageListContainer from '@/components/messages/MessageListContainer';
-import SubHeader from '@/components/subHeader/SubHeader';
-import './App.css';
+import Banner from '@/components/Banner';
+import Layout from '@/components/Layout';
+import MessageListContainer from '@/components/MessageListContainer';
+import SubHeader from '@/components/SubHeader';
+import '../css/App.css';
 import AppFooter from '@/components/Footer.vue';
 import WalletConnect from '@/components/WalletConnect.vue';
 
