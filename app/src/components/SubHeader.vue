@@ -25,6 +25,6 @@ export default {
 };
 </script>
 
-<style scoped>
-@import url('@/css/SubHeader.css');
+<style lang="scss">
+  @import "@/css/SubHeader.css";
 </style>
